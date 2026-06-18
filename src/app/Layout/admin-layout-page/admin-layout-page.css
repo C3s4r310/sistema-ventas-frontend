@@ -1,0 +1,24 @@
+.admin-main-layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #f5f7fb;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 0;
+}
+
+.admin-page-content {
+  flex: 1;
+  padding: 0;
+  overflow-y: auto;
+  background: #f5f7fb;
+}

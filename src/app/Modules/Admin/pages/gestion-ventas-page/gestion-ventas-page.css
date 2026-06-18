@@ -1,0 +1,171 @@
+.ventas-wrapper {
+  padding: 28px 32px;
+  background: #f5f7fb;
+  min-height: calc(100vh - 70px);
+}
+
+.ventas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  display: block;
+  color: #0cae98;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.ventas-header h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0 0 10px;
+}
+
+.ventas-header p {
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.search-box {
+  width: 330px;
+  height: 46px;
+  border: 1px solid #dbe3ee;
+  border-radius: 14px;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+}
+
+.search-box mat-icon {
+  color: #94a3b8;
+  margin-right: 8px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+.ventas-card {
+  background: white !important;
+  border-radius: 24px;
+  padding: 22px;
+  border: 1px solid #eef1f6;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.06) !important;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 18px;
+  border: 1px solid #eef1f6;
+}
+
+.ventas-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+.ventas-table th {
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.ventas-table td,
+.ventas-table th {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #eef1f6;
+}
+
+.ventas-table tr:hover td {
+  background: #f9fafb;
+}
+
+.ticket {
+  font-weight: 900;
+  color: #111827;
+}
+
+.total {
+  color: #0cae98;
+  font-weight: 900;
+}
+
+.badge-status {
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.badge-status.completado {
+  background: #dcfff7;
+  color: #0cae98;
+}
+
+.badge-status.pendiente {
+  background: #fff7d6;
+  color: #d97706;
+}
+
+.badge-status.anulado {
+  background: #fee2e2;
+  color: #ef4444;
+}
+
+.btn-complete {
+  color: #0cae98 !important;
+}
+
+.btn-cancel {
+  color: #ef4444 !important;
+}
+
+.no-data-msg {
+  text-align: center;
+  padding: 45px 20px;
+  color: #94a3b8;
+}
+
+.no-data-msg mat-icon {
+  font-size: 42px;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+.no-data-msg h3 {
+  margin: 0 0 8px;
+  color: #111827;
+  font-size: 20px;
+}
+
+.no-data-msg p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .ventas-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+}
